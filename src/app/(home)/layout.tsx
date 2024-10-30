@@ -1,3 +1,5 @@
+import { Footer } from "@/components/footer";
+
 export default async function RootLayout({
     children
 }: {
@@ -6,6 +8,8 @@ export default async function RootLayout({
     return (
         <div className="w-full">
             {children}
+
+            <Footer />
         </div>
     );
 }
