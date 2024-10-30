@@ -32,16 +32,15 @@ export default async function Home() {
 							"lg:text-7xl md:text-6xl text-5xl font-semibold dark:text-neutral-100 text-neutral-900 break-words",
 						)}
 					>
-						Inovação na{" "}
+						Impacto da{" "}
 						<span className="inline-flex items-center underline decoration-blurple break-keep">
-							Educação Digital
+							Tecnologia na Educação
 						</span>
 					</h1>
 					<span className="max-w-xl mb-4 text-lg font-medium">
-						Explore como a tecnologia está transformando a sala de aula moderna.
-						Descubra ferramentas interativas, plataformas de aprendizado
-						adaptativo e recursos digitais que tornam o ensino mais envolvente e
-						eficaz para todos.
+						Descubra como a tecnologia está revolucionando o ambiente educacional.
+						Explore ferramentas inovadoras, métodos de ensino digitais e recursos
+						interativos que estão transformando a maneira como aprendemos e ensinamos.
 					</span>
 				</div>
 			</div>
@@ -51,7 +50,7 @@ export default async function Home() {
 					<div className="animate-scroll-wheel" />
 				</div>
 				<span className="hidden mt-2 text-lg font-medium md:block text-neutral-500/50">
-					Desça um pouco...
+					Continue explorando...
 				</span>
 			</div>
 
@@ -65,21 +64,21 @@ export default async function Home() {
 				className="flex flex-col my-10 gap-28"
 			>
 				<div>
-					<h2 className={styles.h2}>Tecnologia na Educação</h2>
+					<h2 className={styles.h2}>Revolução Tecnológica na Educação</h2>
 					<div className="max-w-md my-6 font-medium">
-						A tecnologia está revolucionando a forma como aprendemos e ensinamos. Ela oferece
-						novas oportunidades para personalização, interatividade e acessibilidade,
-						transformando a experiência educacional para estudantes e educadores. 🚀
+						A tecnologia está redefinindo os paradigmas educacionais. Ela proporciona
+						novas formas de interação, personalização e acessibilidade,
+						transformando profundamente a experiência de aprendizagem para estudantes e educadores. 🚀
 						<span className="sr-only">
-							A importância da tecnologia na educação moderna.
+							O papel crucial da tecnologia na transformação da educação contemporânea.
 						</span>
 					</div>
 					<Box className="flex flex-col items-center gap-10 md:flex-row">
 						<div className="flex flex-col items-start md:w-1/2">
-							<h3 className={styles.h3}>Impacto da Tecnologia na Educação</h3>
+							<h3 className={styles.h3}>Transformação Digital na Sala de Aula</h3>
 							<div className="pt-6">
-								A integração de ferramentas digitais, como <Code color="secondary">plataformas de aprendizado online</Code> e <Code color="secondary">aplicativos educacionais</Code>, está transformando as salas de aula tradicionais em ambientes de aprendizado dinâmicos e interativos.
-								Isso beneficia estudantes de todas as idades e habilidades, promovendo uma educação mais inclusiva e eficaz.
+								A incorporação de inovações tecnológicas, como <Code color="secondary">plataformas de e-learning</Code> e <Code color="secondary">aplicativos educacionais interativos</Code>, está convertendo as salas de aula tradicionais em ecossistemas de aprendizagem dinâmicos e envolventes.
+								Esse processo beneficia estudantes de todas as idades e níveis, promovendo uma educação mais inclusiva, eficaz e alinhada com as demandas do século XXI.
 							</div>
 						</div>
 						<div className="w-full md:w-1/2">
@@ -96,7 +95,7 @@ export default async function Home() {
 										<YAxis />
 										<Tooltip />
 										<Legend />
-										<Bar dataKey="valor" fill="#8884d8" name="Adoção de Tecnologia na Educação (%)" />
+										<Bar dataKey="valor" fill="#8884d8" name="Integração Tecnológica na Educação (%)" />
 									</BarChart>
 								</ResponsiveContainer>
 							</div>
@@ -104,24 +103,24 @@ export default async function Home() {
 					</Box>
 				</div>
                 <div>
-                    <h2 className={styles.h2}>Aprendizagem Adaptativa 🧠</h2>
+                    <h2 className={styles.h2}>Inovação Educacional Tecnológica 🧠</h2>
                     <div className="max-w-md my-6 font-medium">
-                        A tecnologia permite personalizar o ensino de acordo com as necessidades individuais dos alunos, melhorando a eficácia do aprendizado.
+                        As tecnologias educacionais permitem uma abordagem de ensino personalizada, adaptando-se às necessidades individuais dos alunos e potencializando a eficácia do processo de aprendizagem.
                     </div>
 
                     <Box className="flex flex-col items-center gap-10 md:flex-row-reverse">
                         <div className="md:w-1/2">
-                            <h3 className={styles.h3}>Benefícios da Aprendizagem Adaptativa</h3>
+                            <h3 className={styles.h3}>Vantagens da Tecnologia na Educação</h3>
                             <div className="pt-6">
-                                Sistemas de aprendizagem adaptativa utilizam inteligência artificial para ajustar o conteúdo e o ritmo de ensino para cada estudante.
+                                Sistemas educacionais modernos utilizam inteligência artificial e análise de dados para otimizar o conteúdo e o ritmo de ensino para cada estudante.
 
                                 <ol className="mt-4">
                                     {[
-                                        "Personalização do conteúdo",
-                                        "Feedback imediato",
-                                        "Progresso individualizado",
-                                        "Maior engajamento",
-                                        "Melhoria no desempenho"
+                                        "Personalização do aprendizado",
+                                        "Avaliação contínua e feedback instantâneo",
+                                        "Acompanhamento individualizado do progresso",
+                                        "Aumento significativo do engajamento estudantil",
+                                        "Melhoria mensurável no desempenho acadêmico"
                                     ].map((name) => (
                                         <li key={name} className="flex items-center gap-1">
                                             <HiCheck className="text-violet-400" />
@@ -135,18 +134,18 @@ export default async function Home() {
                         <div className="w-full px-8 py-4 rounded-lg bg-discord-gray md:w-1/2">
                             <ResponsiveContainer width="100%" height={300}>
                                 <LineChart data={[
-                                    { ano: 2019, tradicional: 70, adaptativo: 75 },
-                                    { ano: 2020, tradicional: 72, adaptativo: 80 },
-                                    { ano: 2021, tradicional: 73, adaptativo: 85 },
-                                    { ano: 2022, tradicional: 75, adaptativo: 90 },
-                                    { ano: 2023, tradicional: 76, adaptativo: 95 }
+                                    { ano: 2019, tradicional: 70, tecnologico: 75 },
+                                    { ano: 2020, tradicional: 72, tecnologico: 80 },
+                                    { ano: 2021, tradicional: 73, tecnologico: 85 },
+                                    { ano: 2022, tradicional: 75, tecnologico: 90 },
+                                    { ano: 2023, tradicional: 76, tecnologico: 95 }
                                 ]}>
                                     <XAxis dataKey="ano" />
                                     <YAxis />
                                     <Tooltip />
                                     <Legend />
                                     <Line type="monotone" dataKey="tradicional" stroke="#8884d8" name="Ensino Tradicional" />
-                                    <Line type="monotone" dataKey="adaptativo" stroke="#82ca9d" name="Aprendizagem Adaptativa" />
+                                    <Line type="monotone" dataKey="tecnologico" stroke="#82ca9d" name="Ensino Tecnológico" />
                                 </LineChart>
                             </ResponsiveContainer>
                         </div>

@@ -11,93 +11,93 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 const data = [
 	{
 		startContent: <HiUserAdd />,
-		title: "Como a tecnologia está transformando a educação?",
-		subtitle: "Descubra o impacto da tecnologia na sala de aula moderna",
+		title: "Quais são os principais impactos da tecnologia na educação?",
+		subtitle: "Descubra como a tecnologia está transformando o ambiente educacional",
 		content: (
 			<ol className="list-decimal list-inside marker:text-neutral-500">
 				<li>
-					Aprendizagem personalizada: <Code color="secondary">IA</Code> e
-					algoritmos adaptam o conteúdo para cada aluno
+					Personalização do aprendizado: <Code color="secondary">IA</Code> e
+					algoritmos adaptam o conteúdo para cada estudante
 				</li>
-				<li>Acesso global: Plataformas online democratizam a educação</li>
+				<li>Democratização do ensino: Plataformas online ampliam o acesso à educação</li>
 				<li>
-					Colaboração aprimorada: Ferramentas digitais facilitam projetos em
-					grupo
-				</li>
-				<li>
-					Gamificação: <span className="font-semibold">Elementos de jogos</span>{" "}
-					tornam o aprendizado mais envolvente
+					Melhoria na colaboração: Ferramentas digitais facilitam trabalhos em
+					grupo e projetos colaborativos
 				</li>
 				<li>
-					<span className="font-semibold">Realidade Virtual e Aumentada:</span>{" "}
-					🚀 Experiências imersivas para melhor compreensão
+					Engajamento aumentado: <span className="font-semibold">Gamificação</span>{" "}
+					torna o processo de aprendizagem mais interativo
+				</li>
+				<li>
+					<span className="font-semibold">Experiências imersivas:</span>{" "}
+					🚀 Realidade Virtual e Aumentada enriquecem a compreensão dos conteúdos
 				</li>
 			</ol>
 		),
 	},
 	{
 		startContent: <HiChartBar />,
-		title: "Estatísticas sobre o impacto da tecnologia na educação",
-		subtitle: "Dados que mostram a transformação digital no ensino",
+		title: "Dados sobre o impacto da tecnologia na educação",
+		subtitle: "Estatísticas que demonstram a transformação digital no ensino",
 		content: (
 			<ul className="list-disc list-inside marker:text-neutral-500">
 				<li>
-					<Code color="success">63%</Code> dos educadores usam tecnologia em sala de aula diariamente
+					<Code color="success">70%</Code> dos estudantes relatam maior engajamento com conteúdos digitais
 				</li>
 				<li>
-					Aumento de <span className="font-semibold">48%</span> na retenção de informações com uso de recursos multimídia
+					Aumento de <span className="font-semibold">55%</span> na retenção de informações com uso de tecnologias educacionais
 				</li>
 				<li>
-					<Code color="warning">95%</Code> dos estudantes têm acesso a dispositivos conectados em casa
+					<Code color="warning">92%</Code> dos educadores acreditam que a tecnologia tem um impacto positivo na educação
 				</li>
 				<li>
-					Crescimento de <span className="font-semibold">70%</span> no mercado de EdTech nos últimos 5 anos
+					Crescimento de <span className="font-semibold">80%</span> no uso de plataformas de aprendizagem online nos últimos 3 anos
 				</li>
 			</ul>
 		),
 	},
 	{
 		startContent: <HiLightBulb />,
-		title: "Tendências futuras na educação digital",
+		title: "Tendências futuras dos impactos tecnológicos na educação",
 		subtitle: "O que podemos esperar nos próximos anos",
 		content: (
 			<>
 				<p className="mb-2">As principais tendências incluem:</p>
 				<ul className="list-disc list-inside marker:text-neutral-500">
-					<li>Aprendizagem baseada em <Code color="secondary">microcréditos</Code></li>
-					<li>Integração de <span className="font-semibold">blockchain</span> para verificação de credenciais</li>
-					<li>Uso de <Code color="primary">big data</Code> para otimização do currículo</li>
-					<li>Expansão da <span className="font-semibold">Internet das Coisas (IoT)</span> em ambientes educacionais</li>
-					<li>Desenvolvimento de <Code color="success">assistentes virtuais</Code> personalizados para estudantes</li>
+					<li>Expansão da <Code color="secondary">inteligência artificial</Code> na personalização do ensino</li>
+					<li>Integração de <span className="font-semibold">realidade mista</span> em experiências educacionais</li>
+					<li>Uso de <Code color="primary">análise de dados</Code> para otimização de currículos e métodos de ensino</li>
+					<li>Aumento da <span className="font-semibold">aprendizagem móvel</span> e microaprendizagem</li>
+					<li>Desenvolvimento de <Code color="success">ecossistemas educacionais</Code> integrados e interconectados</li>
 				</ul>
 			</>
 		),
 	},
 	{
 		startContent: <HiUserAdd />,
-		title: "Benefícios da aprendizagem online",
-		subtitle: "Vantagens da educação digital para estudantes e educadores",
+		title: "Impactos positivos da tecnologia na educação",
+		subtitle: "Benefícios da integração tecnológica para estudantes e educadores",
 		content: (
 			<ul className="list-disc list-inside marker:text-neutral-500">
-				<li>Flexibilidade de horários e localização</li>
-				<li>Acesso a uma variedade maior de cursos e especialidades</li>
-				<li>Redução de custos com deslocamento e materiais físicos</li>
-				<li>Possibilidade de aprender no próprio ritmo</li>
-				<li>Desenvolvimento de habilidades digitais essenciais para o mercado de trabalho</li>
+				<li>Maior flexibilidade e acessibilidade ao conhecimento</li>
+				<li>Desenvolvimento de habilidades digitais essenciais para o futuro</li>
+				<li>Facilitação da aprendizagem colaborativa e global</li>
+				<li>Melhoria na eficiência administrativa das instituições de ensino</li>
+				<li>Ampliação das possibilidades de pesquisa e acesso a recursos educacionais</li>
 			</ul>
 		),
 	},
 	{
 		startContent: <HiChartBar />,
-		title: "Desafios da implementação tecnológica na educação",
+		title: "Desafios do impacto tecnológico na educação",
 		subtitle: "Obstáculos a serem superados na transformação digital do ensino",
 		content: (
 			<ol className="list-decimal list-inside marker:text-neutral-500">
-				<li>Infraestrutura inadequada em algumas regiões</li>
-				<li>Necessidade de capacitação contínua de educadores</li>
-				<li>Preocupações com segurança e privacidade de dados</li>
-				<li>Potencial aumento da desigualdade digital</li>
-				<li>Adaptação de metodologias pedagógicas para o ambiente virtual</li>
+				<li>Garantia de equidade no acesso à tecnologia educacional</li>
+				<li>Necessidade de formação contínua de educadores em novas tecnologias</li>
+				<li>Balanceamento entre o uso da tecnologia e interações humanas no aprendizado</li>
+				<li>Adaptação de currículos e metodologias para ambientes digitais</li>
+				<li>Proteção da privacidade e segurança dos dados de estudantes e educadores</li>
 			</ol>
 		),
 	},
@@ -118,11 +118,11 @@ export function Faq({ showTitle = true }: Props) {
 	return (
 		<div className="w-full my-4">
 			{showTitle ? (
-				<Section showDivider={false} className="mb-4" title="Algumas pesquisas e dados">
-					Algumas pesquisas e dados sobre o nosso trabalho
+				<Section showDivider={false} className="mb-4" title="Impactos da Tecnologia na Educação">
+					Explorando os efeitos transformadores da tecnologia no cenário educacional
 				</Section>
 			) : (
-				<h2 className={styles.h2}>Algumas pesquisas e dados</h2>
+				<h2 className={styles.h2}>Impactos da Tecnologia na Educação</h2>
 			)}
 
 			<Accordion
