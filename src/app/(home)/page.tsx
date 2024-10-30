@@ -31,7 +31,7 @@ export default function Home() {
 	});
 
 	const opacity = useTransform(scrollYProgress, [0, 0.5], [0, 1]);
-	const scale = useTransform(scrollYProgress, [0, 0.5], [0.8, 1]);
+	const scale = useTransform(scrollYProgress, [0, 0.5], [0.7, 1]);
 
 	const styles = {
 		h2: cn(
