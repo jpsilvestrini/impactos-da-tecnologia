@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Impacto da Tecnologia na Educação
 
-## Getting Started
+Este projeto foi desenvolvido como parte de um trabalho escolar para explorar e analisar os diversos impactos que a tecnologia tem causado no ambiente educacional moderno.
 
-First, run the development server:
+## 📚 Sobre o Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este projeto visa discutir e apresentar como as ferramentas tecnológicas têm transformado a forma como aprendemos e ensinamos, abordando tanto os aspectos positivos quanto os desafios dessa integração.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Principais Tópicos Abordados
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Educação à distância e suas possibilidades
+- Ferramentas digitais no ambiente escolar
+- O papel das redes sociais na educação
+- Desafios da inclusão digital
+- Novas metodologias de ensino apoiadas pela tecnologia
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Tecnologias Utilizadas
 
-## Learn More
+- Next.js
+- React
+- TypeScript
+- TailwindCSS
 
-To learn more about Next.js, take a look at the following resources:
+## 💡 Principais Benefícios da Tecnologia na Educação
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Personalização do Aprendizado**
+   - Adaptação ao ritmo individual do aluno
+   - Conteúdo personalizado baseado nas necessidades
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Acessibilidade**
+   - Maior alcance do conhecimento
+   - Quebra de barreiras geográficas
 
-## Deploy on Vercel
+3. **Interatividade**
+   - Maior engajamento dos alunos
+   - Aprendizado mais dinâmico
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Preparação para o Futuro**
+   - Desenvolvimento de habilidades digitais
+   - Familiarização com ferramentas tecnológicas
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Como Contribuir
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/NovaFeature`)
+3. Commit suas mudanças (`git commit -m 'Adicionando nova feature'`)
+4. Push para a branch (`git push origin feature/NovaFeature`)
+5. Abra um Pull Request
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Desenvolvido com 💜 para contribuir com a evolução da educação através da tecnologia.
+
